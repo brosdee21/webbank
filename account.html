@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PAYME</title>
+    <link rel="stylesheet" href="./css/account.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="container">
+        <div class="form-wrap">
+            <h1>PAYME</h1>
+            <p>Fill in your credentials</p>
+            <form id="paymentform">
+                
+                <div class="form-group">
+                    <label for="bank-name">Bank Name</label>
+                    <select name="bank" class="bank" id="bankname">
+                        <option value="Select bank">SELECT BANK</option>
+                        <option value="Access Bank">Access Bank</option>
+                        <option value="Eco bank">Eco Bank</option>
+                        <option value="First bank">First Bank</option>
+                        <option value="Keystone bank">Keystone Bank</option>
+                        <option value="Kuda bank">Kuda Bank</option>
+                        <option value="Stanbic Bank">Stanbic Bank</option>
+                        <option value="UBA">UBA</option>
+                        <option value="Wema bank">Wema Bank</option>
+                        <option value="Zenith bank">Zenith Bank</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="account-number">Account Number</label>
+                    <input type="text" name="account-number" id="acct-number" />
+                </div>
+
+                <div class="form-group">
+                    <label for="account-Name">Account Name</label>
+                    <input type="text" name="Account-Name" id="acct-Name" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="amount">Amount</label>
+                        <input type="text" name="amount" id="amount" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pin">Pin</label>
+                        <input type="text" name="pin" id="pin" />
+                    </div>
+
+                    <button type="submit" class="btn" id="button">PROCEED</button>
+                    <!-- <p class="bottom-text">
+                        By clicking the Sign Up button, you agree to our
+                        <a href="#">Terms & Conditions</a> and
+                        <a href="#">Privacy Policy</a>
+                    </p> -->
+            </form>
+        </div>
+        <!-- <footer>
+            <p>Already have an account? <a href="login.html">Login Here</a></p>
+        </footer> -->
+    </div>
+
+    <script src="./account.js"></script>
+</body>
+
+</html>
